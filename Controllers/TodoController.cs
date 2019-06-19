@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Mvc; 
 using System.Collections.Generic; 
 using System.Linq; 
-using TodoApi.Models;  
+using TodoApi.Models; 
+using System.Threading;
+using System.Threading.Tasks; 
 namespace TodoApi.Controllers {     
     [Route("api/[controller]")]     
     [ApiController]     
@@ -31,6 +33,15 @@ namespace TodoApi.Controllers {
                 return NotFound();     
             }     
             return item; 
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<TodoItem>> PostTodoItem(TodoItem item)
+        {
+            _context.TodoItems.Add(item);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetById), new { id = item.Id }, item);
         }
     } 
 }
