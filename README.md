@@ -6,11 +6,11 @@ Purpose: Learning objectives for C#, in [ramp-up week for EP1](<https://github.c
 
 Date: 19/06/19
 
-Technologies: C#, ASP.NET Core, PostgreSQL
+Technology stack: C#, ASP.NET Core, PostgreSQL
 
 --------------
 ### Description
-A basic web API with ASP.NET Core and PostgreSQL that can manage 'to-do' items stored in a relational database.
+A basic web API that can manage 'to-do' items stored in a relational database with CRUD functionality (Create, Read, Update, Delete).
 
 https://medium.com/@agavatar/webapi-with-net-core-and-postgres-in-visual-studio-code-8b3587d12823
 
