@@ -47,7 +47,17 @@ namespace TodoApi.Controllers {
             return CreatedAtAction(nameof(GetById), new { id = item.Id }, item);
         }
 
+        [HttpPut("{id}", Name = "UpdateTodo")]
 
+        public async Task<ActionResult<TodoItem>> UpdateTodo(long id, string name) 
+        {
+            var item = _context.TodoItems.Find(id);
+            item.Name = name;
+
+            await _context.SaveChangesAsync();
+
+            return item;
+        }
 
         [HttpDelete("{id}", Name = "DeleteTodo")]
         public async Task<ActionResult<string>> DeleteTodoItem(long id) {
