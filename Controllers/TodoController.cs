@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc; 
 using System.Collections.Generic; 
 using System.Linq; 
+using System; 
 using TodoApi.Models; 
 using System.Threading;
 using System.Threading.Tasks; 
@@ -45,13 +46,37 @@ namespace TodoApi.Controllers {
             return CreatedAtAction(nameof(GetById), new { id = item.Id }, item);
         }
 
-        [HttpDelete("{id}", Name = "DeleteTodo")]
-        public async Task<ActionResult<string>> DeleteTodoItem(long id) {
+        [HttpPost("/delete")]   
+        public ActionResult DeleteTodoItem(long id) {
+            Console.WriteLine("*****");
             var item = _context.TodoItems.Find(id); 
             _context.TodoItems.Remove(item);
 
-            await _context.SaveChangesAsync();
-            return "Successfully deleted";
+         
+            _context.SaveChanges();
+            return NoContent();
         }
+
+        // [HttpDelete("{id}")]
+        // public async Task<IActionResult> DeleteTodo(long id)
+        // {
+        //     var todoItem = await _context.TodoItems.FindAsync(id);
+        //     if (todoItem == null)
+        //     {
+        //         return NotFound();
+        //     }
+        //     _context.TodoItems.Remove(todoItem);
+        //     await _context.SaveChangesAsync();
+        //     return NoContent();
+        // }
+
+        // [HttpDelete("{id}", Name = "DeleteTodo")]
+        // public async Task<ActionResult<string>> DeleteTodoItem(long id) {
+        //     var item = _context.TodoItems.Find(id); 
+        //     _context.TodoItems.Remove(item);
+
+        //     await _context.SaveChangesAsync();
+        //     return "Successfully deleted";
+        // }
     } 
 }
