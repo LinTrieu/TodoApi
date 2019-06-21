@@ -1,13 +1,10 @@
+@model TodoApi.Models.TodoItem
 @{ViewData["Title"]="Index";}
-
 <h1>Sharpies Todo!</h1>
 
-@ViewData["AllTodos"]
-
 <ul>
-@foreach(var item in ViewData["AllTodos"]) {
-  <li></li>
-    
-};
-
+  @foreach(var item in ViewData["AllTodos"] as IEnumerable<TodoApi.Models.TodoItem>) 
+    {
+    <li>@item.Name</li>  
+    };
 </ul>
