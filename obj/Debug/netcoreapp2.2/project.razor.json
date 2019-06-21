@@ -1,5 +1,5 @@
 {
-  "FilePath": "TodoApi.csproj",
+  "FilePath": "/Users/student/csharp/newtodo/TodoApi/TodoApi.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2941,5 +2941,11 @@
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "TodoApi",
-  "Documents": []
+  "Documents": [
+    {
+      "FilePath": "Views/Todo/Index.cshtml",
+      "TargetPath": "Views/Todo/Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ]
 }

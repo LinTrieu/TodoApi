@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/student/projects/TodoApi/TodoApi.csproj": {}
+    "/Users/student/csharp/newtodo/TodoApi/TodoApi.csproj": {}
   },
   "projects": {
-    "/Users/student/projects/TodoApi/TodoApi.csproj": {
+    "/Users/student/csharp/newtodo/TodoApi/TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/student/projects/TodoApi/TodoApi.csproj",
+        "projectUniqueName": "/Users/student/csharp/newtodo/TodoApi/TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "/Users/student/projects/TodoApi/TodoApi.csproj",
+        "projectPath": "/Users/student/csharp/newtodo/TodoApi/TodoApi.csproj",
         "packagesPath": "/Users/student/.nuget/packages/",
-        "outputPath": "/Users/student/projects/TodoApi/obj/",
+        "outputPath": "/Users/student/csharp/newtodo/TodoApi/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
