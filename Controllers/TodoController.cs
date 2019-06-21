@@ -5,7 +5,7 @@ using TodoApi.Models;
 using System.Threading;
 using System.Threading.Tasks; 
 using Microsoft.AspNetCore.Mvc;
-
+// using Newtonsoft.Json;
 
 namespace TodoApi.Controllers {     
     [Route("api/[controller]")]     
@@ -21,17 +21,33 @@ namespace TodoApi.Controllers {
              _context.SaveChanges();             
             }         
         }
-
-        public IActionResult Index()
-        {
+        // public ActionResult<List<TodoItem>> Index() 
+        // GetAllTodos method
+        [HttpGet]
+        public IActionResult Index() 
+        {     
+            List<TodoItem> todoitems = new List<TodoItem>();
+            foreach(var item in _context.TodoItems) {
+                todoitems.Add(item);
+            };
+            ViewData["AllTodos"] = todoitems;
             return View();
         }
         
-        // [HttpGet] 
-        // public ActionResult<List<TodoItem>> GetAll() 
-        // {     
-        //     return _context.TodoItems.ToList(); 
-        // } 
+        // GetById Method
+        // [HttpGet("{id}", Name = "GetTodo")] 
+        // public ActionResult<TodoItem> GetById(long id) 
+        // {    
+        //     var item = _context.TodoItems.Find(id);     
+        //     if (item == null)    
+        //     {         
+        //         return NotFound();     
+        //     }
+
+        //     ViewData["Todo"] = item.Name;
+        //     return View(); 
+        // }
+        
         
         // [HttpGet("{id}", Name = "GetTodo")] 
         // public ActionResult<TodoItem> GetById(long id) 

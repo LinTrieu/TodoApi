@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/student/csharp/newtodo/TodoApi/TodoApi.csproj": {}
+    "/Users/linna@paddle.com/week_eight/TodoApi/TodoApi.csproj": {}
   },
   "projects": {
-    "/Users/student/csharp/newtodo/TodoApi/TodoApi.csproj": {
+    "/Users/linna@paddle.com/week_eight/TodoApi/TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/student/csharp/newtodo/TodoApi/TodoApi.csproj",
+        "projectUniqueName": "/Users/linna@paddle.com/week_eight/TodoApi/TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "/Users/student/csharp/newtodo/TodoApi/TodoApi.csproj",
-        "packagesPath": "/Users/student/.nuget/packages/",
-        "outputPath": "/Users/student/csharp/newtodo/TodoApi/obj/",
+        "projectPath": "/Users/linna@paddle.com/week_eight/TodoApi/TodoApi.csproj",
+        "packagesPath": "/Users/linna@paddle.com/.nuget/packages/",
+        "outputPath": "/Users/linna@paddle.com/week_eight/TodoApi/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/student/.nuget/NuGet/NuGet.Config"
+          "/Users/linna@paddle.com/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -55,6 +55,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
             },
             "NpgSql.EntityFrameworkCore.PostgreSQL.Design": {
               "target": "Package",
