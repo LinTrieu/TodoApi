@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/linna@paddle.com/week_eight/TodoApi/TodoApi.csproj": {}
+    "/Users/edreeve/makers/projects/TodoApi/TodoApi.csproj": {}
   },
   "projects": {
-    "/Users/linna@paddle.com/week_eight/TodoApi/TodoApi.csproj": {
+    "/Users/edreeve/makers/projects/TodoApi/TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/linna@paddle.com/week_eight/TodoApi/TodoApi.csproj",
+        "projectUniqueName": "/Users/edreeve/makers/projects/TodoApi/TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "/Users/linna@paddle.com/week_eight/TodoApi/TodoApi.csproj",
-        "packagesPath": "/Users/linna@paddle.com/.nuget/packages/",
-        "outputPath": "/Users/linna@paddle.com/week_eight/TodoApi/obj/",
+        "projectPath": "/Users/edreeve/makers/projects/TodoApi/TodoApi.csproj",
+        "packagesPath": "/Users/edreeve/.nuget/packages/",
+        "outputPath": "/Users/edreeve/makers/projects/TodoApi/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/linna@paddle.com/.nuget/NuGet/NuGet.Config"
+          "/Users/edreeve/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
