@@ -58,6 +58,7 @@
 /Users/linna@paddle.com/week_eight/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.dll
 /Users/linna@paddle.com/week_eight/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.pdb
 /Users/linna@paddle.com/week_eight/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.csproj.CopyComplete
+<<<<<<< HEAD
 /Users/student/Documents/cSharp/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.deps.json
 /Users/student/Documents/cSharp/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.runtimeconfig.json
 /Users/student/Documents/cSharp/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.runtimeconfig.dev.json
@@ -81,3 +82,28 @@
 /Users/student/Documents/cSharp/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.dll
 /Users/student/Documents/cSharp/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.pdb
 /Users/student/Documents/cSharp/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.csproj.CopyComplete
+=======
+/Users/edreeve/makers/projects/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.deps.json
+/Users/edreeve/makers/projects/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.runtimeconfig.json
+/Users/edreeve/makers/projects/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.runtimeconfig.dev.json
+/Users/edreeve/makers/projects/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.dll
+/Users/edreeve/makers/projects/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.pdb
+/Users/edreeve/makers/projects/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.Views.dll
+/Users/edreeve/makers/projects/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.Views.pdb
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.csprojAssemblyReference.cache
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.csproj.CoreCompileInputs.cache
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.RazorAssemblyInfo.cache
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.RazorAssemblyInfo.cs
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.AssemblyInfoInputs.cache
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.AssemblyInfo.cs
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.TagHelpers.input.cache
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.TagHelpers.output.cache
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.RazorCoreGenerate.cache
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/Razor/Views/Todo/Index.g.cshtml.cs
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.RazorTargetAssemblyInfo.cache
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.RazorTargetAssemblyInfo.cs
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.Views.pdb
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.dll
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.pdb
+/Users/edreeve/makers/projects/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.csproj.CopyComplete
+>>>>>>> 05810ba11095fea020b91d6c135e6c79b243ccfb

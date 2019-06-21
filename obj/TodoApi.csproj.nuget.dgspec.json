@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/Users/student/Documents/cSharp/TodoApi/TodoApi.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "/Users/student/Documents/cSharp/TodoApi/TodoApi.csproj",
         "packagesPath": "/Users/student/.nuget/packages/",
         "outputPath": "/Users/student/Documents/cSharp/TodoApi/obj/",
+=======
+    "/Users/edreeve/makers/projects/TodoApi/TodoApi.csproj": {}
+  },
+  "projects": {
+    "/Users/edreeve/makers/projects/TodoApi/TodoApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/edreeve/makers/projects/TodoApi/TodoApi.csproj",
+        "projectName": "TodoApi",
+        "projectPath": "/Users/edreeve/makers/projects/TodoApi/TodoApi.csproj",
+        "packagesPath": "/Users/edreeve/.nuget/packages/",
+        "outputPath": "/Users/edreeve/makers/projects/TodoApi/obj/",
+>>>>>>> 05810ba11095fea020b91d6c135e6c79b243ccfb
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "/Users/student/.nuget/NuGet/NuGet.Config"
+=======
+          "/Users/edreeve/.nuget/NuGet/NuGet.Config"
+>>>>>>> 05810ba11095fea020b91d6c135e6c79b243ccfb
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"

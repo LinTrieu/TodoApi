@@ -45,44 +45,44 @@ namespace TodoApi.Controllers {
         // }
         
         
-        // [HttpGet("{id}", Name = "GetTodo")] 
-        // public ActionResult<TodoItem> GetById(long id) 
-        // {    
-        //     var item = _context.TodoItems.Find(id);     
-        //     if (item == null)    
-        //     {         
-        //         return NotFound();     
-        //     }     
-        //     return item; 
-        // }
+        [HttpGet("{id}", Name = "GetTodo")] 
+        public ActionResult<TodoItem> GetById(long id) 
+        {    
+            var item = _context.TodoItems.Find(id);     
+            if (item == null)    
+            {         
+                return NotFound();     
+            }     
+            return item; 
+        }
 
-        // [HttpPost]
-        // public async Task<ActionResult<TodoItem>> PostTodoItem(TodoItem item)
-        // {
-        //     _context.TodoItems.Add(item);
-        //     await _context.SaveChangesAsync();
+        [HttpPost]
+        public async Task<ActionResult<TodoItem>> PostTodoItem(TodoItem item)
+        {
+            _context.TodoItems.Add(item);
+            await _context.SaveChangesAsync();
 
-        //     return CreatedAtAction(nameof(GetById), new { id = item.Id }, item);
-        // }
+            return CreatedAtAction(nameof(GetById), new { id = item.Id }, item);
+        }
 
-        // [HttpPut("{id}", Name = "UpdateTodo")]
+        [HttpPut("{id}", Name = "UpdateTodo")]
 
-        // public async Task<ActionResult<TodoItem>> UpdateTodo(long id, string name) 
-        // {
-        //     var item = _context.TodoItems.Find(id);
-        //     item.Name = name;
+        public async Task<ActionResult<TodoItem>> UpdateTodo(long id, string name) 
+        {
+            var item = _context.TodoItems.Find(id);
+            item.Name = name;
 
-        //     await _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
 
-        //     return item;
-        // }
+            return item;
+        }
 
-        // [HttpDelete("{id}", Name = "DeleteTodo")]
-        // public async Task<ActionResult<string>> DeleteTodoItem(long id) {
-        //     var item = _context.TodoItems.Find(id); 
-        //     _context.TodoItems.Remove(item);
-        //     await _context.SaveChangesAsync();
-        //     return "Successfully deleted";
-        // }
+        [HttpDelete("{id}", Name = "DeleteTodo")]
+        public async Task<ActionResult<string>> DeleteTodoItem(long id) {
+            var item = _context.TodoItems.Find(id); 
+            _context.TodoItems.Remove(item);
+            await _context.SaveChangesAsync();
+            return "Successfully deleted";
+        }
     } 
 }
