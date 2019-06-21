@@ -25,13 +25,9 @@ namespace TodoApi.Controllers {
         // GetAllTodos method
         [HttpGet]
         public IActionResult Index() 
-        {     
-            List<TodoItem> todoitems = new List<TodoItem>();
-            foreach(var item in _context.TodoItems) {
-                todoitems.Add(item);
-            };
-            ViewData["AllTodos"] = todoitems;
-            return View();
+        {    
+            List<TodoItem> todoitems = _context.TodoItems.ToList();
+            return View(todoitems);
         }
         
         // GetById Method
